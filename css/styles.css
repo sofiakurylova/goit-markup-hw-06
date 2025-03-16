@@ -227,10 +227,7 @@ background-color: #fff;
   opacity: 1;
   visibility: visible;
 }
-.menu {
-  padding-top: 72px;
-  padding-bottom: 40px;
-}
+
 .menu-close {
   position: absolute;
   top: 24px;
@@ -923,6 +920,7 @@ input::placeholder {
           display: flex;
           align-items: baseline;
           flex-wrap: nowrap;
+          gap :unset;
       }
       
   .footer-one {
